@@ -18,5 +18,15 @@ const characters = [
     }
 ];
 
-module.exports = characters;
+function sayHello(name){
+    console.log(`hello ${name}`);
+    
+}
+let something = 'blah';
+module.exports = {
+    characters: characters,
+    something: something,
+    hello: sayHello,
+}
+
 
